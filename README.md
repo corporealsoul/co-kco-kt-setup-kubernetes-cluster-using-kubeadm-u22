@@ -283,6 +283,9 @@ or,
     kubeadm join 192.168.56.4:6443 --token 70gkub.z2blgf5fem7kxy8b \
             --discovery-token-ca-cert-hash sha256:fb0850c6gdab6j008cke574348b5bb5ddc9ba0a10746c8e9f7367d7723f243881a56
 
+    anup@ubuntu-22042-16:~$ sudo kubeadm join 192.168.56.4:6443 --token b1kg09.u0hrymd5s46lgc4k --discovery-token-ca-cert-hash sha256:0babfb00e5caa29d56c5cc95adbef00f88ccd7726d2ea5053c2b7ac35ee5013a --cri-socket=unix:///var/run/cri-dockerd.sock
+
+
 <br>
 
 `[anup@rhel-92-04 ~]$ kubelet --version`
