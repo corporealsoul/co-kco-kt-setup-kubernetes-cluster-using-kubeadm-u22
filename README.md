@@ -141,7 +141,7 @@
 
 2. Install cri-dockerd, following the instructions in that source code repository, https://github.com/Mirantis/cri-dockerd,
 
-**Note : **For cri-dockerd, the CRI socket is unix:///var/run/cri-dockerd.sock by default.
+**Note :** For cri-dockerd, the CRI socket is unix:///var/run/cri-dockerd.sock by default.
 
 <br>
 
